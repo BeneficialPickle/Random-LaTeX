@@ -81,10 +81,10 @@ Size = root.geometry('400x400')
 # Button
 
 chooseFile = Button(root, text="Choose Files", command=OpenFile)
-stop = Button(root, text="Compile PDF", command=CreatePdf)
 chooseFile.pack()
-stop.pack()
 chooseFile.place(relx=0.5, rely=0.4, anchor = CENTER)
+stop.pack()
+stop = Button(root, text="Compile PDF", command=CreatePdf)
 stop.place(relx=0.5, rely=0.5, anchor = CENTER)
 
 root.mainloop()
