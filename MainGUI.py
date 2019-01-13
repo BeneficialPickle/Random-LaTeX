@@ -8,7 +8,7 @@ import re
 root = Tk()
 files = []
 labels = []
-initialdir = "C:/Users/poote/Desktop/"
+initialdir = "C:/Users/poote/Desktop/" #TODO change to be dynamic
 
 def OpenFile():
     global initialdir
